@@ -15,25 +15,33 @@
 </head>
 <body>
     <div class="container">
-        <div class="box">
-            <div class="pattern"><i class="icon-basket"></i></div>
-            <h4 class="title">Lista zakupów</h4>
-                <p class="label">Wpisz produkt:</p><br/>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="box">
+                    <div class="pattern"><i class="icon-basket"></i></div>
+                    <h4 class="title">Lista zakupów</h4>
+                    <p class="label">Wpisz produkt:</p><br/>
 
-            <div class="inputSpace">
+                    <div class="inputSpace">
 
-                 <form id="inputForm">
-                    <input type="text" id="listItem">
-                    <button  class="btn btn-sm">Dodaj produkt</button>
-                </form>
+                        <form id="inputForm">
+                            <input type="text" id="listItem">
+                            <button  class="btn btn-sm">Dodaj produkt</button>
+                        </form>
 
+                    </div>
+
+                    <div id="list"></div> 
+
+                    <button class="btn btn-warning clearAll" id="button">Wyczyść listę</button>
+                    <script src="JS/clearAll.js"></script>
+                </div> 
             </div>
 
-            <div id="list"></div> 
-            <button class="btn btn-warning clearAll">Wyczyść listę</button>
-        </div> 
+        </div>
     </div>        
 <script src="JS/js.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

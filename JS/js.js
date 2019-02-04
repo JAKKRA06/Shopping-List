@@ -20,4 +20,3 @@ function addItem(event) {
 
 var input = document.getElementById('inputForm');
 input.addEventListener('submit', addItem, false);
-
