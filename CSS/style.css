@@ -86,3 +86,14 @@ input[type=text]:focus
     outline : none;
     border  : none;
 }
+
+#list p
+{
+    text-align       : center;
+    background-color : lightgrey;
+}
+
+#list
+{
+    margin-top : 10px;
+}
