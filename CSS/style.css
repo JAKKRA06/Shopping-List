@@ -13,14 +13,14 @@ body
 
 .box
 {
-    border : 6px solid #fff;
-    width  : 350px;
-    height : 350px;
-    margin-top      : 100px;
-    margin-bottom   : 100px;
-    margin-left     : auto;
-    margin-right    : auto;
-    background-color: #00ccff;
+    border           : 6px solid #fff;
+    width            : 350px;
+    min-height       : 350px;
+    margin-top       : 100px;
+    margin-bottom    : 100px;
+    margin-left      : auto;
+    margin-right     : auto;
+    background-color : #00ccff;
 }
 
 .title
@@ -33,43 +33,56 @@ body
 
 .pattern
 {
-    font-size: 22px;
-    text-align: center;
+    font-size  : 22px;
+    text-align : center;
 }
 
 input[type=text]
 {
-    border-radius: 10px;
-    padding: 2px 5px;
-    border: none;
+    border-radius : 10px;
+    padding       : 2px 5px;
+    border        : none;
 }
 
 input[type=text]:focus
 {
-    border : none;
-    outline: none;
-    padding: 2px 5px;
+    border  : none;
+    outline : none;
+    padding : 2px 5px;
 }
 
 .label
 {
-    text-align: center;
+    text-align : center;
 }
 
 .inputSpace
 {
-    text-align: center;
+    text-align : center;
 }
 
+.btn 
+{
+    border-radius : 25px;
+}
 .clearAll
 {
-    text-align: center;
-    border-radius: 25px;
+    border     : none;
+    position   : relative;
+    bottom     : 10px;
+    left       : 116px;
+    margin-top : 10px;
 }
 
 .clearAll:hover
 {
-    background-color: #ff0033;
-    border: none;
-} solid #000;
+    background-color : #ff0033;
+    border           : none;
+    outline          : none;
+}
+
+.clearAll:active
+{
+    outline : none;
+    border  : none;
 }
