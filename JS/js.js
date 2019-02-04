@@ -1,11 +1,25 @@
 
+var array = [];               // inicjalizacja tablicy
 
-var newElement = document.createElement('li');
 
-var newProduct = document.createTextNode('kuba');
+function addItem(event) {
+    
+var text = document.getElementById('listItem').value;
+array.push(text);
 
-newElement.appendChild(newProduct);
 
-var position = document.getElementsByClassName('one');
+var list = '<p>' + array + '</p>'+'</br>';
 
-position.appendChild(newElement);
+var element = document.getElementById('list');
+element.innerHTML = list;
+
+event.preventDefault();
+}
+
+
+
+
+
+var input = document.getElementById('inputForm');
+input.addEventListener('submit', addItem, false);
+
