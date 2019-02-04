@@ -11,11 +11,12 @@ function addItem(event) {
 
 	newEle.appendChild(textNode);
 
-
+    newEle.className = 'normalItem';
+    
 	position.appendChild(newEle);
 
 	event.preventDefault();
-
+    document.getElementById('listItem').value = null;
 }
 
 var input = document.getElementById('inputForm');

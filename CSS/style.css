@@ -87,13 +87,37 @@ input[type=text]:focus
     border  : none;
 }
 
-#list p
+.normalItem
 {
     text-align       : center;
     background-color : lightgrey;
+    cursor           : pointer; 
 }
 
 #list
 {
     margin-top : 10px;
+}
+
+.add
+{
+    border : none;
+}
+
+.add:active
+{
+    outline : none; 
+    border  : none;
+}
+
+.add:hover 
+{
+    background-color : #00ff33; 
+    border           : none;
+}
+
+.markItem
+{
+    text-align       : center;
+    background-color : #00ff33;
 }
