@@ -1,28 +1,22 @@
 
-var array = [];               // inicjalizacja tablicy
-
-
 function addItem(event) {
 
-var element = document.getElementById('list');    
-var text = document.getElementById('listItem').value;
-array.push(text);
+	var position = document.getElementById('list');   
 
-for (var i = 0; i < array.length; i++) {
+	var text = document.getElementById('listItem').value;
 
-    var list = '<p>' + array[i] + '</p>'+'<br / >';
+	var newEle = document.createElement('p');
 
-    element.innerHTML = list;	
+	var textNode = document.createTextNode(text);
+
+	newEle.appendChild(textNode);
+
+
+	position.appendChild(newEle);
+
+	event.preventDefault();
+
 }
-
-
-
-event.preventDefault();
-}
-
-
-
-
 
 var input = document.getElementById('inputForm');
 input.addEventListener('submit', addItem, false);
