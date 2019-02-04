@@ -1,7 +1,7 @@
 body
 {
     background-color : #000;
-    color            : #fff;
+    color            : #000;
     font-family      : 'Lato', sans-serif;
 }
 
@@ -20,7 +20,7 @@ body
     margin-bottom   : 100px;
     margin-left     : auto;
     margin-right    : auto;
-    background-color: #990033;
+    background-color: #00ccff;
 }
 
 .title
@@ -58,15 +58,18 @@ input[type=text]:focus
 
 .inputSpace
 {
-	text-align: center;
+    text-align: center;
 }
 
-#list
+.clearAll
 {
-    width : 200px;
-    background-color: orange;
-    padding: 10px;
     text-align: center;
-    color: #000;
-    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.clearAll:hover
+{
+    background-color: #ff0033;
+    border: none;
+} solid #000;
 }
