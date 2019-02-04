@@ -61,11 +61,10 @@ input[type=text]:focus
 	text-align: center;
 }
 
-.one > li
+#list
 {
     width : 200px;
     background-color: orange;
-    list-style-type:  none;
     padding: 10px;
     text-align: center;
     color: #000;
